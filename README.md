@@ -1,11 +1,11 @@
-instalasi
+## Instalation
 
--cp .env.example menjadi env dan setting configuration database
+-   cp .env.example menjadi .env dan setting configuration database
 
--php artisan key:generate
+-   php artisan key:generate
 
--composer install / composer update
+-   composer install / composer update
 
--php artisan migrate:fresh --seed
+-   php artisan migrate:fresh --seed
 
--php artisan serve
+-   php artisan serve
